@@ -4,5 +4,5 @@
 
     const primitiveDatatype=["String","number", "Boolean","null","Undefined","Symbol","Bigint"];
     console.log(primitiveDatatype);
-
+    
    
