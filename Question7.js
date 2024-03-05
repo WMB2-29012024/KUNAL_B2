@@ -4,3 +4,9 @@
 
 const numArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]    
 
+const fourthelem =[];
+ for(let idx=numArr.length-1;idx >= 0; idx -= 4 ){
+    fourthelem.push(numArr[idx]);
+    
+ }
+ console.log(fourthelem);

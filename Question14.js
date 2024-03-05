@@ -5,3 +5,16 @@
 const numArr1 = [1, 2, 3, 4, 5]
 const numArr2 = [6, 7, 8, 9, 10, 11, 12]    
 
+ const logSameElement=(arr1,arr2)=>{
+    let longerArrayLength=0;
+
+     if(arr1.length<arr2.length) {
+         longerArrayLength =arr2.length;
+     } else{
+        longerArrayLength=arr1.length;
+     }
+     for(let i=0;i<longerArrayLength;i++){
+        console.log(arr1[i] ?? 0,arr2[i] ?? 0)
+     }
+ }  
+  logSameElement(numArr1,numArr2)
