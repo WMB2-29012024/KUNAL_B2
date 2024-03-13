@@ -39,7 +39,7 @@ class Stack {
         return this.removeItem
     }
 }
-const input=[4,5,2,5]
+const Input=[4,5,2,25]
 function nextGreater (Input){
     const stack = new Stack(Input.length)
     const ans = [...Input]
@@ -53,5 +53,5 @@ function nextGreater (Input){
    }
    return ans;
 }
-console.log(nextGreater(input));
+console.log(nextGreater(Input));
    
