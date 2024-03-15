@@ -77,4 +77,3 @@ getSize() {
 
  }
   console.log( palindrome(input));
-
