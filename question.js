@@ -80,4 +80,4 @@ const k=3;
       }
    return arr
  }
-  console.log(allsubarray(Input, k))
+  console.log(allsubarray(Input, k)) 
